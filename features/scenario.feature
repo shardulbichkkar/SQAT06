@@ -7,3 +7,8 @@ Feature: Simple maths
     Given I go to duck duck go
     When  I search for WebdriverIO
     Then  I should see the search results
+
+  Scenario: easy maths
+    Given I go to Google
+    When  I search for WebdriverIO on Google
+    Then  I should see the search results on Google
